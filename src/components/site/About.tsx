@@ -61,9 +61,9 @@ export function About() {
                 ))}
               </div>
               <div className="hairline mt-6 pt-6">
-                <h4 className="text-2xl leading-none">{TIMELINE[active].title}</h4>
+                <h4 className="text-2xl leading-none">{TIMELINE[active]?.title}</h4>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted-foreground">
-                  {TIMELINE[active].copy}
+                  {TIMELINE[active]?.copy}
                 </p>
               </div>
             </div>
